@@ -49,6 +49,6 @@ flutter test
 ```
 
 📷 Screenshots
-![App Screenshot](assets/claim_list.png)
+![App Screenshot](assets/claims_list.png)
 ![App Screenshot](assets/claim_detail.png)
 ![App Screenshot](assets/searched_claim.png)
