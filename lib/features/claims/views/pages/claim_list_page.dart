@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:insurance_claim/features/claims/data/models/claim.dart';
+import 'package:insurance_claim/features/claims/views/pages/claim_detail_page.dart';
 import 'package:insurance_claim/features/claims/views/provider/claim_notifier.dart';
 
 class ClaimsListPage extends ConsumerWidget {
@@ -84,7 +85,9 @@ class _ClaimTile extends StatelessWidget {
           ],
         ),
         onTap: () {
-          
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (_) => ClaimDetailPage(claim: claim)),
+          );
         },
       ),
     );
