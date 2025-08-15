@@ -29,7 +29,7 @@ Each post simulates an insurance claim with:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/flutter-insurance-claims.git
+git clone https://github.com/allysiaamanda/InsuranceClaim.git
 cd flutter-insurance-claims
 ``` 
 
